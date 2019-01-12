@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img{width: 100px;height: 100px;}
+			tbody span{display: block;line-height: 30px;width: 100px;text-align: center;margin: 0 auto;background: dodgerblue;color: #fff;font-style: normal;}
+			div.foor{
+				position: relative;
+				left: 0;				
+				top:0;
+				cursor: pointer;				
+				height:40px;
+				width: 100px;
+				border:1px solid #000;
+				text-align: center;
+				background: red;
+				color:#fff;
+				font:20px/2 "";
+			}
+			#jia{
+				position: absolute;
+				right: 50px;
+				width:100px;
+				/*background: red;*/
+				bottom: 50px;
+				height:100px;
+			}
+		.foot {
+        height: 35px;
+        width: auto;
+        border: 1px solid #000;
+        border-top: none
+    }
+
+   .foot div {
+        float: left;
+        width: 708px;
+        height: 35px;
+        border-right: 1px solid #000;
+        font: 12px/35px "";
+        color: #404040;
+        text-indent: 10px
+    }
+		span{
+			cursor: pointer;
+		}
+		</style>
+	</head>
+	<body>
+		<h2>购物车<small>&nbsp;&nbsp;<a href="list.html" target="_blank">继续购物</a></small></h2>
+		<div class="foor">全选</div>
+		<table border="1" cellspacing="0" width="900" align="center">
+			<thead>
+				<tr>
+					<th>图片</th>
+					<th>名字</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>总价</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!--<tr>
+					<td><img src=""/></td>
+					<td>Data</td>
+					<td>Data</td>
+					<td>Data</td>
+					<td>Data</td>
+					<td><span>删除</span></td>
+				</tr>-->
+			</tbody>
+		</table>
+			<div class="foot">
+    			<div>价格￥<span>0.00</span>元</div>
+			</div>
+		
+		
+	</body>
+	<script src="../scripts/libs/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../scripts/libs/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../scripts/car.js" type="text/javascript" charset="utf-8"></script>
+</html>

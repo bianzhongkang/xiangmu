@@ -1,0 +1,41 @@
+[{
+	"goodsId":"1",
+	"src":"../images/imgs/4.jpg",
+	"price":999.00,
+	"name":"百度有你"
+},{
+	"goodsId":"2",
+	"src":"../images/imgs/img1.jpg",
+	"price":3599.00,
+	"name":"好看的"
+},{
+	"goodsId":"3",
+	"src":"../images/imgs/img2.jpg",
+	"price":3059.00,
+	"name":"好玩的"
+},{
+	"goodsId":"4",
+	"src":"../images/imgs/img3.jpg",
+	"price":1099.00,
+	"name":"哈哈"
+},{
+	"goodsId":"5",
+	"src":"../images/imgs/img4.jpg",
+	"price":7299.00,
+	"name":"美景"
+},{
+	"goodsId":"6",
+	"src":"../images/imgs/w4.jpg",
+	"price":5399.00,
+	"name":"看看"
+},{
+	"goodsId":"7",
+	"src":"../images/imgs/w1.jpg",
+	"price":2088.00,
+	"name":"小姐姐"
+},{
+	"goodsId":"8",
+	"src":"../images/imgs/w2.jpg",
+	"price":1400.00,
+	"name":"前锋"
+}]
